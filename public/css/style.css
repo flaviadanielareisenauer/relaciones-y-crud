@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,37 +9,38 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
   text-decoration: none;
 }
-img{
+img {
   width: 100%;
 }
-figure{
+figure {
   width: 20%;
 }
-.titulo{
+.titulo {
   text-align: center;
 }
-.botonAgregar , .botonModificar{
+.botonAgregar,
+.botonModificar {
   color: white;
   background-color: green;
   padding: 10px;
   border-radius: 10px;
 }
-.botonBorrar{
+.botonBorrar {
   color: white;
   background-color: red;
   padding: 10px;
   border-radius: 10px;
 }
-.botonVolver{
+.botonVolver {
   color: white;
-  background-color: #00B7FF;
+  background-color: #00b7ff;
   padding: 10px;
   border-radius: 10px;
 }
-.formulario{
+.formulario {
   margin: auto;
   width: 20%;
 }

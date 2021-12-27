@@ -6,10 +6,12 @@
     <title>Películas ordas por rating</title>
     <link rel='stylesheet' href='/css/style.css' />
 </head>
+
 <body>
     <figure>
         <img src="/img/logo-DH.png" alt="Logo Digital House">
     </figure>
+
     <h1>PEÍCULAS ORDENADAS POR POSICIÓN</h1>
     <ul>
         <% for( let i = 0; i < movies.length; i++ ) { %>
@@ -17,8 +19,7 @@
             <a href="/movies/detail/<%=movies[i].id%>"><%= movies[i].title %> </a> <br>
             <%= 'RATING: ' + movies[i].rating %> 
         </li>
-        <% } %>
-        
+        <% } %>        
     </ul>
 </body>
 </html>
