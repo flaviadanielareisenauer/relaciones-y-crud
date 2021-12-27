@@ -2,7 +2,7 @@
   "name": "myApp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "nodemon src/app.js"
   },
@@ -12,6 +12,7 @@
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "method-override": "^3.0.0",
     "mysql2": "^2.2.5",
     "sequelize": "^6.5.0"
   },
